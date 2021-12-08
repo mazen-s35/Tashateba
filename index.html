@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tashatebat</title>
+    <!-- Link CDN Swaping.js -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Aswome CDN Link -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- Strat Header Navbar -->
+    <header class="header">
+        <div id="icone" class="fas fa-bars"></div>
+        <div class="logo">تشطيبات</div>
+        <nav class="navbar">
+            <a href="#">الرئسية</a>
+            <a href="#about">ماذا عنا</a>
+            <a href="#services">خدماتنا</a>
+        </nav>
+    </header>
+    <!-- End Header Navbar -->
+    <!-- Section Home Strat -->
+    <section class="home" id="home">
+        <div class="box-content">
+            <div class="box active" style="background-image: url(image/home-bg-1.jpg)">
+                <h1> مرحبا بكم في تشطيبات </h1>
+                <p>ماذا تنتظر ، اطلب خدماتك ألان و التنفيذ في الحال</p>
+                <button class="btn">اضغط هنا لبدا تشطيبات</button>
+            </div>
+            <div class="box" style="background-image: url(image/h1.jpg)">
+                <h1> مرحبا بكم في تشطيبات </h1>
+                <p>ماذا تنتظر ، اطلب خدماتك ألان و التنفيذ في الحال</p>
+                <button class="btn">اضغط هنا لبدا تشطيبات</button>
+            </div>
+            <div class="box" style="background-image: url(image/home-bg-3.jpg)">
+                <h1> مرحبا بكم في تشطيبات </h1>
+                <p>ماذا تنتظر ، اطلب خدماتك ألان و التنفيذ في الحال</p>
+                <button class="btn">اضغط هنا لبدا تشطيبات</button>
+            </div>
+        </div>
+        <div id="next" onclick="nextSlider()" class="fas fa-angle-right"></div>
+        <div id="prove" onclick="proveSlider()" class="fas fa-angle-left"></div>
+    </section>
+    <!-- Section Home End -->
+    <!-- Strat Section About -->
+    <section class="about" id="about">
+        <h1 class="main-title">ماذا عنا؟</h1>
+        <div class="conteanuo">
+            <div class="content-about">
+                <h3>اهلا بكم في موقع تشطيبات </h3>
+                <p>نقدم لكم مجموعة من الخدمات التي لا يمكن الاستغناء عنها و علي سبيل المثل : كهرباء ونجارة وسباك والمزيد من الخدمات كما يوجد تنفيذ مقاولات عامة كاملة</p>
+                <button class="btn">تفاصيل اكتر</button>
+            </div>
+            <div class="image">
+                <img src="image/about-removebg-preview.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- End Section About -->
+    <!-- ٍٍٍٍStrat Section  -->
+    <section class="qouth">
+        <h2>كيف تستخدم تشطيبات؟</h2>
+        <div class="content-howTOuse">
+            <div class="content-q">
+                <img src="image/section-how-2-removebg-preview.png" alt="">
+                <h3>اختر الخدمة</h3>
+                <p> اختر احد خدمات موقع تشطيبات الكثير جدا مثل النجارة او الكهرباء او السباكة او المبالط وبأسعار مناسبة جدا</p>
+            </div>
+            <div class="content-q">
+                <img src="image/section-how-1-removebg-preview.png" alt="">
+                <h3>اختر الصانيعي</h3>
+                <p>اختر احد عملائنا الكثرون في جميع الصناعات </p>
+            </div>
+            <div class="content-q">
+                <img src="image/Factory_Worker_1-01-removebg-preview.png" alt="">
+                <h3>قيم الصنايعي</h3>
+                <p>قيم تجربتك مع الصناعي قد يساعد زلك المستخدمين الاخرين</p>
+            </div>
+        </div>
+    </section>
+    <!-- ُEnd Section  -->
+    <!-- Stert Section services -->
+    <section class="services" id="services">
+        <h2>خدماتنا</h2>
+        <div class="swiper content-serv">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box-serv">
+                    <img src="image/section-srevices1.jpg" alt="">
+                    <a href="سباكة.html">سباكة</a>
+                </div>
+                <div class="swiper-slide box-serv">
+                    <img src="image/section-srevices3.jpg" alt="">
+                    <a href="كهرباء.html">كهرباء</a>
+                </div>
+                <div class="swiper-slide box-serv">
+                    <img src="image/section-srevices2.jpg" alt="">
+                    <a href="نجارة.html">نجارة</a>
+                </div>
+                <div class="swiper-slide box-serv">
+                    <img src="image/section-srevices paved.jpg" alt="">
+                    <a href="مبلط.html">مبلط</a>
+                </div>
+                <div class="swiper-slide box-serv">
+                    <img src="image/nka4.jpg" alt="">
+                    <a href="نقاشة.html">نقاشة</a>
+                </div>
+                <div class="swiper-slide box-serv">
+                    <img src="image/section-srevicesAlumetal.jpg" alt="">
+                    <a href="الوميتال.html">الوميتال</a>
+                </div>
+                <div class="swiper-slide box-serv">
+                    <img src="image/section-srevicesGeneral Contracting.jpg" alt="">
+                    <a href="مقاولات عامة.html">مقاولات عامة</a>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- End Section services -->
+    <!-- لماذا تشطيبات -->
+    <section class="why">
+        <div class="content-why">
+            <div class="text">
+                <h2>لماذا تشطيبات؟</h2>
+                <p>نقدم لك خدماتنا بطريقة احترافية و خالية من أي أخطاء كما أن سابقة أعمالنا تتحدث بالنيابه عنا الأولوية لدينا في تحقيق ما يتمناه عملائنا بمستوي راق</p>
+            </div>
+            <div class="test">تشطيبات</div>
+        </div>
+    </section>
+    <!-- لماذا تشطيبات -->
+    <!-- Strat Section Footer -->
+    <section class="footer">
+        <div class="creatid">تم عمل الموقع بواسطة م : مازن اشرف </div>
+    </section>
+    <!-- End Section Footer -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
